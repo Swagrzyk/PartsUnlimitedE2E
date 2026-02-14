@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+        // firs change to committed 
         [Key]
         public int CartItemId { get; set; }
 
